@@ -17,6 +17,9 @@
 </head>
 <body>
     <header>
+      <audio id="myaudio" controls autoplay loop hidden>
+        <source src=backsound.mp3 type="audio/mpeg">
+      </audio>
       <div class="container">
         <div class="header-left">
           <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
@@ -24,7 +27,7 @@
         <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
           <a href="#">Lessons</a>
-          <a href="#">Sign in</a>
+          <a href="#">Sign up</a>
           <a href="#" class="login">Log in</a>
         </div>
       </div>
@@ -96,5 +99,8 @@
         <p>Learn to code, learn to be creative.</p>
       </div>
     </footer>
+  <script> var audio = document.getElementById("myaudio");
+  audio.volume = 0.1;
+  </script>
   </body>
 </html>
