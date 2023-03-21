@@ -1,40 +1,44 @@
 
 body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-header {
-  width: 100%;
-  background-color: #333;
-  position :fixed;
-  top:0;
-}
-
-.navbar {
-  display: flex;
-  color:azure;
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
   
-}
-
-.navbar p {
-  margin:0; 
-  padding:5px 15px; 
-  font-size: 25px; 
-  font-family:'Courier New', Courier, monospace;
-  font-weight: 900;
+  header {
+    width: 100%;
+    background-color: #333;
+    position :fixed;
+    top:0;
+  }
   
+  .navbar {
+    display: flex;
+    color:azure; 
+    
+  }
   
-}
-.navbar a { 
-  float:left;
-  padding: 14px 6px;
-  color:inherit;
-  font-size:12px;
-  text-decoration: none;
-}
+  .navbar p {
+    margin:0; 
+    padding:5px 15px; 
+    font-size: 25px; 
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    
+    
+  }
+  .navbar a { 
+    float:left;
+    padding: 14px 6px;
+    color:inherit;
+    font-size:12px;
+    text-decoration: none;
+  }
+  
+   .navbar a:hover {
+    color:#333;
+    background:azure;
+  }
 
- .navbar a:hover {
-  color:#333;
-  background:azure;
-}
+   .menu-icon {
+    display:none;
+   }
