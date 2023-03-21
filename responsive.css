@@ -1,0 +1,21 @@
+@media all and (max-width: 670px) {
+    .header-right {
+        display:none;
+    }
+    .menu-icon {
+        display:block;
+        padding:10px;
+        margin-left:120px;
+    }
+    .judul{ 
+        font-size:40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .proyek {
+        margin-top:50px;
+    }
+    .wadah {
+        flex-direction:column;
+    }
+
+}
